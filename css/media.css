@@ -1,0 +1,100 @@
+@media (max-width: 1440px) {}
+
+@media (max-width: 1320px) {}
+
+@media (max-width: 1290px) {}
+
+@media (max-width: 1170px) {}
+
+@media (max-width: 1140px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 850px) {}
+
+/*  Tab  */
+@media (max-width: 768px) {}
+
+@media (max-width: 736px) {}
+
+@media (max-width: 734px) {}
+
+@media (max-width: 684px) {}
+
+@media (max-width: 667px) {}
+
+@media (max-width: 576px) {
+    .site-nav{
+        width: 500px;
+    }
+    
+    .image {
+        background: url(../img/photo_2024-03-03_20-30-29.jpg);
+        /* width: 576px; */
+        /* width: 100%; */
+        /* max-width: 375px; */
+        height: 222px;
+        flex-shrink: 0;
+        margin-left: 20px;
+    }
+
+    .img-text {
+        width: 430px;
+        /* text-align: center; */
+       
+    }
+
+
+    .services-cards{
+      
+     
+        overflow: none;
+      scroll-snap-align: inherit;
+       
+    
+     
+      
+    }
+    .card_1{
+        width: 100%;
+        max-width: 455px;
+
+    }
+    .portfiolya-img{
+        width: 100%;
+        max-width: 375px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    /* .card_1 {
+        width: 706px;
+        height: 509px;
+        flex-shrink: 0;
+
+    } */
+
+    .image_2{
+        background: url(../img/photo_2024-03-03_20-30-29.jpg);
+    }
+
+    .footer-section{
+       flex-wrap: wrap;
+    }
+    .footer-menu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 412px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {}

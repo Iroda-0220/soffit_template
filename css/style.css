@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1C1C1E;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER */
+
+.site-nav {
+    padding-top: 75px;
+}
+
+.nav {
+    justify-content: space-between;
+}
+
+
+
+/* .logo {
+    padding-left: 100px;
+*/
+.nav-link {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    /* 143.75% */
+    opacity: 0.3;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: #FFF;
+}
+
+.nav-link:active {
+    color: #FFF;
+}
+
+.header-btn {
+    width: 99px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 75px;
+    border: 1px solid #FFF;
+    opacity: 0.6;
+    box-shadow: none;
+
+}
+
+/* HEADER */
+/* image */
+
+.site-img {
+    padding-top: 95px;
+}
+
+.image {
+    width: 100%;
+}
+
+.img__text {
+    padding-top: 50px;
+}
+
+.img-text {
+    width: 1021px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    /* 200% */
+    padding-bottom: 35px;
+}
+
+.btn-primary {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 50px;
+    background: #0040DD;
+}
+
+/* image */
+
+
+/* SECTION CARDS */
+
+.services-cards{
+    overflow: hidden;
+}
+.title {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 110px;
+    padding-bottom: 30px;
+}
+
+
+
+
+.card {
+    width: 406px;
+    height: 509px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    background-color: #1C1C1E;
+    padding: 40px;
+
+}
+
+.card-title {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 125% */
+}
+
+.card-text {
+    width: 260px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* 175% */
+}
+
+.btn-card {
+    width: 139px;
+    height: 42px;
+    display: inline-flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* SECTION CARDS */
+
+
+/* SECTION PORTFIOLIYA */
+
+/* SECTION PORTFIOLIYA */
+
+/* footer */
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.footer-section {
+    column-gap: 100px;
+}
+
+
+
+.footer-text {
+    color: #3c3c42;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.form-control {
+    width: 363px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    box-shadow: none;
+    background-color: #1C1C1E;
+    /* transition: .5s; */
+    margin-top: 15px;
+    opacity: .5s;
+}
+
+.form-control :hover {
+    
+    background-color: #1C1C1E;
+    border: 1px solid #FFF;
+}
+
+.form-control :active {
+
+    background-color: #1C1C1E;
+    border: 1px solid #FFF;
+}
+
+.footer_btn {
+    margin-top: 15px;
+}
+
+.link_title {
+    color: #3c3c42;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: .5s;
+}
+.link_title:hover{
+    color: #3c3c42;
+}
+/* .link_title :active{
+    color: #3c3c42;
+} */
+.footer-menu {
+    padding-top: 10px;
+ 
+}
+.footer-list{
+    line-height: 35px;
+}
+.footer_link {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    transition: .5s;
+    /* 112.5% */
+   
+}
+
+.footer_link:hover {
+    color: #FFF;
+}
+
+.footer_span {
+    width: 100px;
+}
+.footer_text{
+    color: #FFF;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 50px;
+}
+
+/* footer */
